@@ -1,0 +1,39 @@
+  <div id="divMediasMoveis">
+    <div>
+      <h3>Médias Móveis</h3>
+      <h6>Afinal, como que calcula as médias móveis?</h6>
+      <p>
+        Soma os dados mais recentes de covid com os dos seis dias anteriores, dividindo o resultado por sete.
+      </p>
+    </div>
+    <br>
+    <div>
+      <h4>Média de Casos</h4>
+
+        <ul class="list-group list-group-flush" *ngFor="let m of medias">
+          <li class="list-group-item">1 Semana: {{m.mediaConfirmados}} casos</li>
+        </ul>
+        <ul class="list-group list-group-flush" *ngFor="let m of medias2">
+          <li class="list-group-item">2 Semanas: {{m.mediaConfirmados}} casos</li>
+        </ul>
+        <ul class="list-group list-group-flush" *ngFor="let m of medias3">
+          <li class="list-group-item">3 Semanas: {{m.mediaConfirmados}} casos</li>
+        </ul>
+
+    </div>
+    <br>
+    <br>
+    <div>
+      <h4>Média de Mortes</h4>
+
+      <ul class="list-group list-group-flush" *ngFor="let m of medias">
+        <li class="list-group-item">1 Semana: {{m.mediaMortos}} casos</li>
+      </ul>
+      <ul class="list-group list-group-flush" *ngFor="let m of medias2">
+        <li class="list-group-item">2 Semanas: {{m.mediaMortos}} casos</li>
+      </ul>
+      <ul class="list-group list-group-flush" *ngFor="let m of medias3">
+        <li class="list-group-item">3 Semanas: {{m.mediaMortos}} casos</li>
+      </ul>
+    </div>
+  </div>
