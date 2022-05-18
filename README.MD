@@ -36,7 +36,7 @@
     <li>Swagger</li>
 </ul>
 
-## Prints da Páginas
+## Prints das Páginas
 
 <img src=".\imgs\home.png"></img>
 <br>
