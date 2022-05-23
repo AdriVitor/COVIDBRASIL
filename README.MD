@@ -5,7 +5,7 @@
 <ul>
     <li>NAVEGUE ATÉ A PASTA BACKEND</li>
     <li>DIGITE O COMANDO DOTNET RUN PARA EXECUTAR A APLICAÇÃO BACKEND</li>
-    <li>NAVEGUE ATÉ A PASTA FRONTEND</li>
+    <li>NAVEGUE ATÉ A PASTA FRONTEND/CovidBrasil</li>
     <li>DIGITE O COMANDO NPM START PARA EXECUTAR A APLICAÇÃO FRONTEND</li>
 </ul>
 
@@ -37,7 +37,7 @@
     <li>Swagger</li>
 </ul>
 
-## Prints da Páginas
+## Prints das Páginas
 
 <img src=".\imgs\home.png"></img>
 <br>
