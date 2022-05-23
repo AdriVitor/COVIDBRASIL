@@ -39,9 +39,13 @@
 
 ## Prints das Páginas
 
+### Home
 <img src=".\imgs\home.png"></img>
 <br>
+### Pagina de Médias Moveis
 <img src=".\imgs\pagemedias.png"></img>
+<br>
+### Pagina de Dados Gerais
 <img src=".\imgs\dadosgerais.png"></img>
 
 
