@@ -30,6 +30,7 @@
 <ul>
     <li>Angular</li>
     <li>Bootstrap</li>
+    <li>Bootstrap Icon</li>
     <li>ASP.NET Core</li>
     <li>EF Core</li>
     <li>SQLite</li>
@@ -41,4 +42,6 @@
 <img src=".\imgs\home.png"></img>
 <br>
 <img src=".\imgs\pagemedias.png"></img>
+<img src=".\imgs\dadosgerais.png"></img>
+
 

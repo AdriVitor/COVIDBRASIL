@@ -7,13 +7,17 @@ import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { AppHomeComponent } from './app-home/app-home.component';
 import { MediasMoveisComponent } from './medias-moveis/medias-moveis.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { DadosGeraisComponent } from './dados-gerais/dados-gerais.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppNavbarComponent,
     AppHomeComponent,
-    MediasMoveisComponent
+    MediasMoveisComponent,
+    SidebarComponent,
+    DadosGeraisComponent
   ],
   imports: [
     HttpClientModule,

@@ -1,0 +1,7 @@
+<div id="DivDadosGerais">
+      <ul class="list-group list-group-horizontal" *ngFor="let c of casos">
+        <li class="list-group-item">Confirmados: {{c.confirmed}}</li>
+        <li class="list-group-item">Mortos: {{c.deaths}}</li>
+        <li class="list-group-item">Data: {{c.date | date: 'dd/MM/yyyy'}}</li>
+      </ul>
+</div>
